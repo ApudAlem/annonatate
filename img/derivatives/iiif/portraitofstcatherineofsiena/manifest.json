@@ -1,0 +1,86 @@
+---
+added: 2024-06-05 16&#58;56&#58;21.344582
+thumbnail: https://apudalem.github.io/annonatate/img/derivatives/iiif/portraitofstcatherineofsiena/Image1/full/156,/0/default.jpg
+title: Portrait of St. Catherine of Siena
+user: ApudAlem
+---
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://apudalem.github.io/annonatate/img/derivatives/iiif/portraitofstcatherineofsiena/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Portrait of St. Catherine of Siena"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "rights"
+        ]
+      },
+      "value": {
+        "en": [
+          "Public domain"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Woodcut Illustration"
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "viewingDirection": "left-to-right",
+  "items": [
+    {
+      "id": "https://apudalem.github.io/annonatate/img/derivatives/iiif/portraitofstcatherineofsiena/canvas/portraitofstcatherineofsiena-1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Image1"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://apudalem.github.io/annonatate/img/derivatives/iiif/portraitofstcatherineofsiena/Image1/full/156,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 3863,
+      "width": 2493,
+      "items": [
+        {
+          "id": "https://apudalem.github.io/annonatate/img/derivatives/iiif/portraitofstcatherineofsiena/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://apudalem.github.io/annonatate/img/derivatives/iiif/portraitofstcatherineofsiena/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://apudalem.github.io/annonatate/img/derivatives/iiif/portraitofstcatherineofsiena/Image1/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3863,
+                "width": 2493,
+                "service": [
+                  {
+                    "id": "https://apudalem.github.io/annonatate/img/derivatives/iiif/portraitofstcatherineofsiena/Image1",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://apudalem.github.io/annonatate/img/derivatives/iiif/portraitofstcatherineofsiena/canvas/portraitofstcatherineofsiena-1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
