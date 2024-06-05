@@ -1,0 +1,37 @@
+---
+canvas: "https://apudalem.github.io/annonatate/img/derivatives/iiif/portraitofstcatherineofsiena/canvas/portraitofstcatherineofsiena-1"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Latin word (iesus) in italic.",
+            "purpose": "describing",
+            "creator": {
+                "id": "ApudAlem",
+                "name": "ApudAlem"
+            },
+            "created": "2024-06-05T17:04:01.381Z",
+            "modified": "2024-06-05T17:04:55.484Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://apudalem.github.io/annonatate/img/derivatives/iiif/portraitofstcatherineofsiena/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://apudalem.github.io/annonatate/img/derivatives/iiif/portraitofstcatherineofsiena/canvas/portraitofstcatherineofsiena-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"1997.1387329101562\" cy=\"1627.328125\" r=\"244.9074844805361\"></circle></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "3d6025c1-3469-4091-8d8b-f407699797ed.json",
+    "motivation": "commenting"
+}
