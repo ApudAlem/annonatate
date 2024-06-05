@@ -1,3 +1,9 @@
-images: []
+images:
+- added: '2024-06-05 17:07:58.755972'
+  iiif: false
+  thumbnail: https://apudalem.github.io/dhsi-iiif-2024/images/Book4700-197.jpg
+  title: ''
+  url: https://apudalem.github.io/dhsi-iiif-2024/images/Book4700-197.jpg
+  user: ApudAlem
 settings: {}
 version: '2.1'
