@@ -4,31 +4,31 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Printer's warning: ",
-            "purpose": "commenting",
+            "created": "2024-06-06T18:59:30.497Z",
             "creator": {
                 "id": "ApudAlem",
                 "name": "ApudAlem"
             },
-            "created": "2024-06-06T18:59:30.497Z",
-            "modified": "2024-06-06T18:59:37.193Z"
+            "modified": "2024-06-06T20:20:49.155Z",
+            "purpose": "describing",
+            "type": "TextualBody",
+            "value": "In 1500, Aldus Aldus Manutius acquired a privilege for the works of St. Catherine of Siena. The lower portion of the title page warns other printers against reproducing this work."
         }
     ],
+    "id": "00ade0be-14b5-4eaa-9f84-e433f9ad3bdc.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=142.3992462158203,2157.003173828125,2072.4364471435547,1446.124755859375"
+        },
         "source": {
             "id": "https://apudalem.github.io/dhsi-iiif-2024/images/Book4700-010.jpg",
             "type": "image"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=142.3992462158203,2157.003173828125,2072.4364471435547,1446.124755859375"
         }
     },
-    "id": "00ade0be-14b5-4eaa-9f84-e433f9ad3bdc.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
