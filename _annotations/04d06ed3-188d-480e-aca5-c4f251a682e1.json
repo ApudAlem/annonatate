@@ -1,0 +1,38 @@
+---
+canvas: "https://apudalem.github.io/annonatate/img/derivatives/iiif/epistolaprima/canvas/epistolaprima-1"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Epistola prima (first letter), dedicated to Pope Gregory II.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ApudAlem",
+                "name": "ApudAlem"
+            },
+            "created": "2024-06-06T17:12:23.561Z",
+            "modified": "2024-06-06T17:13:20.499Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://apudalem.github.io/annonatate/img/derivatives/iiif/epistolaprima/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://apudalem.github.io/annonatate/img/derivatives/iiif/epistolaprima/canvas/epistolaprima-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1512.1009521484375,1184.415283203125,471.4322509765625,155.33984375"
+        }
+    },
+    "id": "04d06ed3-188d-480e-aca5-c4f251a682e1.json",
+    "motivation": "commenting"
+}
