@@ -1,0 +1,38 @@
+---
+canvas: "https://apudalem.github.io/annonatate/img/derivatives/iiif/stcatherineofsiena/canvas/stcatherineofsiena-1"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Rare copy of the Letters of St. Catherine, without italic type",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ApudAlem",
+                "name": "ApudAlem"
+            },
+            "created": "2024-06-06T20:49:37.841Z",
+            "modified": "2024-06-06T20:49:53.148Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://apudalem.github.io/annonatate/img/derivatives/iiif/stcatherineofsiena/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://apudalem.github.io/annonatate/img/derivatives/iiif/stcatherineofsiena/canvas/stcatherineofsiena-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=225.77459716796875,425.66937255859375,358.633544921875,310.5"
+        }
+    },
+    "id": "5be58d01-2e3a-4681-a5cf-126f2656af73.json",
+    "motivation": "commenting"
+}
