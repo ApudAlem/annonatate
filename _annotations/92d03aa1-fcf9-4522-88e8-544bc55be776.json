@@ -1,0 +1,38 @@
+---
+canvas: "https://apudalem.github.io/annonatate/img/derivatives/iiif/titlepage/canvas/titlepage-1"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Title: Devotional Letters of St. Catherine of Siena",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ApudAlem",
+                "name": "ApudAlem"
+            },
+            "created": "2024-06-06T20:45:57.614Z",
+            "modified": "2024-06-06T20:46:08.875Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://apudalem.github.io/annonatate/img/derivatives/iiif/titlepage/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://apudalem.github.io/annonatate/img/derivatives/iiif/titlepage/canvas/titlepage-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=480.7400817871094,795.4456787109375,1175.0162658691406,378.4342041015625"
+        }
+    },
+    "id": "92d03aa1-fcf9-4522-88e8-544bc55be776.json",
+    "motivation": "commenting"
+}
