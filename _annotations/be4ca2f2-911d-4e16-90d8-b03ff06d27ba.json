@@ -1,0 +1,38 @@
+---
+canvas: "https://apudalem.github.io/annonatate/img/derivatives/iiif/epistolaprima/canvas/epistolaprima-1"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Floriated initial [S]",
+            "purpose": "describing",
+            "creator": {
+                "id": "ApudAlem",
+                "name": "ApudAlem"
+            },
+            "created": "2024-06-06T17:11:32.601Z",
+            "modified": "2024-06-06T17:11:42.807Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://apudalem.github.io/annonatate/img/derivatives/iiif/epistolaprima/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://apudalem.github.io/annonatate/img/derivatives/iiif/epistolaprima/canvas/epistolaprima-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=155.5481414794922,1326.8380126953125,685.3383941650391,737.4757080078125"
+        }
+    },
+    "id": "be4ca2f2-911d-4e16-90d8-b03ff06d27ba.json",
+    "motivation": "commenting"
+}
