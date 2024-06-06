@@ -1,0 +1,38 @@
+---
+canvas: "https://apudalem.github.io/annonatate/img/derivatives/iiif/titlepage/canvas/titlepage-1"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "In 1500, Aldus Aldus Manutius acquired a privilege for the works of St. Catherine of Siena. The lower portion of the title page warns other printers against reproducing this work.",
+            "purpose": "describing",
+            "creator": {
+                "id": "ApudAlem",
+                "name": "ApudAlem"
+            },
+            "created": "2024-06-06T20:45:32.303Z",
+            "modified": "2024-06-06T20:45:35.473Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://apudalem.github.io/annonatate/img/derivatives/iiif/titlepage/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://apudalem.github.io/annonatate/img/derivatives/iiif/titlepage/canvas/titlepage-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=139.8234100341797,2295.828369140625,2009.5598907470703,1267.41357421875"
+        }
+    },
+    "id": "0f5aec89-e97f-4e66-a311-e91d9c6905df.json",
+    "motivation": "commenting"
+}
