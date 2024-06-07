@@ -4,21 +4,27 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "The first words set in italic type in the history of printing: \u201ciesu dolce | iesu amore\u201d (Italian). First istance of the famous Aldine italic cut by gifted punchcutter Francesco Griffo",
-            "purpose": "describing",
+            "created": "2024-06-05T16:59:17.465Z",
             "creator": {
                 "id": "ApudAlem",
                 "name": "ApudAlem"
             },
-            "created": "2024-06-05T16:59:17.465Z",
-            "modified": "2024-06-05T17:00:09.755Z"
+            "modified": "2024-06-07T12:57:29.426Z",
+            "purpose": "describing",
+            "type": "TextualBody",
+            "value": "The first words set in italic type in the history of printing: \u201ciesu dolce | iesu amore\u201d (Italian). First instance of the famous Aldine italic designed by the talented punchcutter Francesco Griffo of Bologna."
         }
     ],
+    "id": "61eed355-6c5e-4b1c-9b0d-652b2ca343ec.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=539.4139404296875,1296.06689453125,729.4632568359375,624.1396484375"
+        },
         "source": {
             "partOf": {
                 "id": "https://apudalem.github.io/annonatate/img/derivatives/iiif/portraitofstcatherineofsiena/manifest.json",
@@ -26,13 +32,7 @@ order: 1
             },
             "id": "https://apudalem.github.io/annonatate/img/derivatives/iiif/portraitofstcatherineofsiena/canvas/portraitofstcatherineofsiena-1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=539.4139404296875,1296.06689453125,729.4632568359375,624.1396484375"
         }
     },
-    "id": "61eed355-6c5e-4b1c-9b0d-652b2ca343ec.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
