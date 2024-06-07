@@ -1,0 +1,38 @@
+---
+canvas: "https://apudalem.github.io/annonatate/img/derivatives/iiif/portraitofstcatherineofsiena/canvas/portraitofstcatherineofsiena-1"
+order: 3
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Full-page woodcut illustration of St. Catherine of Siena, Dominican nun, mystic, and religious activist. The iconography, representing the saint crown by two angels, draws inspiration from the wooden sculpture by Neroccio di\nBartolomeo Landi, preserved in Siena at Saint Catherine's oratory. ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ApudAlem",
+                "name": "ApudAlem"
+            },
+            "created": "2024-06-07T13:02:47.912Z",
+            "modified": "2024-06-07T13:14:05.405Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://apudalem.github.io/annonatate/img/derivatives/iiif/portraitofstcatherineofsiena/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://apudalem.github.io/annonatate/img/derivatives/iiif/portraitofstcatherineofsiena/canvas/portraitofstcatherineofsiena-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=716.5813598632812,2804.097412109375,1521.4227905273438,228.064697265625"
+        }
+    },
+    "id": "c125620d-345b-4e8c-9da5-8d5b02d283ec.json",
+    "motivation": "commenting"
+}
